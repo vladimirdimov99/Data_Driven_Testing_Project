@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61d57344-4c7a-4d6e-93d3-13ab4f91e6cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/credentials/Credentials.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/pages/Home.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/pages/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/pages/Website.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/tests/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/tests/LogInSuccessfullyAndThenLogOut.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/tests/LogInWithInvalidCredentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/java_data_driven/credentials/Credentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/credentials/Credentials.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/java_data_driven/pages/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/pages/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/java_data_driven/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/pages/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/java_data_driven/tests/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/tests/LogInSuccessfullyToTheWebsite.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +46,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="TestNG.Tests">
+  <component name="RunManager" selected="TestNG.LogInWithInvalidCredentials">
     <configuration name="Credentials" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="project.java_data_driven.credentials.Credentials" />
       <module name="java_data_driven" />
@@ -70,7 +60,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInSuccessfullyAndThenLogOut" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_data_driven" />
       <extension name="coverage">
         <pattern>
@@ -79,7 +69,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="project.java_data_driven.tests" />
-      <option name="MAIN_CLASS_NAME" value="project.java_data_driven.tests.Tests" />
+      <option name="MAIN_CLASS_NAME" value="project.java_data_driven.tests.LogInSuccessfullyAndThenLogOut" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -87,7 +77,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LogInSuccessfullyToTheWebsite" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="java_data_driven" />
       <extension name="coverage">
         <pattern>
@@ -96,7 +86,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="project.java_data_driven.tests" />
-      <option name="MAIN_CLASS_NAME" value="project.java_data_driven.tests.Tests" />
+      <option name="MAIN_CLASS_NAME" value="project.java_data_driven.tests.LogInSuccessfullyToTheWebsite" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogInSuccessfullyToTheWebsite.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_data_driven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.java_data_driven.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.java_data_driven.tests" />
+      <option name="MAIN_CLASS_NAME" value="project.java_data_driven.tests.LogInSuccessfullyToTheWebsite" />
       <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -105,11 +112,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LogInWithInvalidCredentials" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="java_data_driven" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.java_data_driven.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="project.java_data_driven.tests" />
+      <option name="MAIN_CLASS_NAME" value="project.java_data_driven.tests.LogInWithInvalidCredentials" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Tests" />
+        <item itemvalue="TestNG.LogInWithInvalidCredentials" />
+        <item itemvalue="TestNG.LogInSuccessfullyAndThenLogOut" />
+        <item itemvalue="TestNG.LogInSuccessfullyToTheWebsite" />
         <item itemvalue="Application.Credentials" />
-        <item itemvalue="TestNG.Tests.testLogin" />
+        <item itemvalue="TestNG.LogInSuccessfullyToTheWebsite.testLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -123,5 +149,16 @@
       <updated>1683124805223</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

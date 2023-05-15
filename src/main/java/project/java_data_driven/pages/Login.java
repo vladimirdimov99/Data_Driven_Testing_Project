@@ -9,7 +9,8 @@ public class Login {
 
     public By usernameInput = By.id("username");
     public By passwordInput = By.id("password");
-    public By submitButton = By.xpath("//button[@type='submit']");
+    public By loginButton = By.xpath("//button[@type='submit']");
+    public By errorMessage = By.className("alert-warning");
 
     public WebDriver insertData(WebDriver driver, By element, String data) {
         WebElement usernameInput = driver.findElement(element);

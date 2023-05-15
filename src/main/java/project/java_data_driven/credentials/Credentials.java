@@ -98,7 +98,8 @@ public class Credentials {
             System.out.println(e.getMessage());
             e.printStackTrace();
         }
-        return username; }
+        return username;
+    }
 
     public String getPassword() {
 
@@ -124,6 +125,57 @@ public class Credentials {
             XSSFSheet sheet = workbook.getSheet("Sheet1");
 
             expected = sheet.getRow(1).getCell(2).getStringCellValue();
+        }
+        catch(Exception e){
+            System.out.println(e.getCause());
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
+        return expected;
+    }
+
+    public String getInvalidUsername(){
+
+        try{
+            FileInputStream file = new FileInputStream(NAME);
+            XSSFWorkbook workbook = new XSSFWorkbook(file);
+            XSSFSheet sheet = workbook.getSheet("Sheet1");
+
+            username = sheet.getRow(2).getCell(0).getStringCellValue();
+        }
+        catch(Exception e){
+            System.out.println(e.getCause());
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
+        return username;
+    }
+
+    public String getInvalidPassword(){
+
+        try{
+            FileInputStream file = new FileInputStream(NAME);
+            XSSFWorkbook workbook = new XSSFWorkbook(file);
+            XSSFSheet sheet = workbook.getSheet("Sheet1");
+
+            password = sheet.getRow(2).getCell(1).getStringCellValue();
+        }
+        catch(Exception e){
+            System.out.println(e.getCause());
+            System.out.println(e.getMessage());
+            e.printStackTrace();
+        }
+        return password;
+    }
+
+    public String getExpectedErrorMessage(){
+
+        try{
+            FileInputStream file = new FileInputStream(NAME);
+            XSSFWorkbook workbook = new XSSFWorkbook(file);
+            XSSFSheet sheet = workbook.getSheet("Sheet1");
+
+            expected = sheet.getRow(2).getCell(2).getStringCellValue();
         }
         catch(Exception e){
             System.out.println(e.getCause());

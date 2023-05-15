@@ -7,11 +7,18 @@ import org.openqa.selenium.WebElement;
 
 public class Home {
 
-    public By userName = By.xpath("//span[@class='username']");
+    public By userName = By.className("username");
+    public By logoutButton = By.id("logout");
 
     public String getUserName(WebDriver driver) {
         WebElement username = driver.findElement(userName);
         String title = username.getText();
         return title;
+    }
+
+    public WebDriver clickButton(WebDriver driver, By element) {
+        WebElement logoutButton = driver.findElement(element);
+        logoutButton.click();
+        return driver;
     }
 }
