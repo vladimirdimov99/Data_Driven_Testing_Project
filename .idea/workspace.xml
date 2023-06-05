@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61d57344-4c7a-4d6e-93d3-13ab4f91e6cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/tests/LogInTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/java_data_driven/credentials/Credentials.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/credentials/Credentials.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/java_data_driven/pages/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/pages/Home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/java_data_driven/pages/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/pages/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/java_data_driven/tests/LogInSuccessfullyAndThenLogOut.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/java_data_driven/tests/LogInSuccessfullyToTheWebsite.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/project/java_data_driven/tests/LogInWithInvalidCredentials.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/project/java_data_driven/tests/LogInTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/project/java_data_driven/tests/LogInTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +41,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
-  <component name="RunManager" selected="TestNG.LogInTests.test">
+  <component name="RunManager" selected="TestNG.LogInTests">
     <configuration name="LogInTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="project.java_data_driven.tests.LogInTests" />
       <module name="java_data_driven" />
@@ -132,8 +126,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LogInTests.test" />
         <item itemvalue="TestNG.LogInTests" />
+        <item itemvalue="TestNG.LogInTests.test" />
         <item itemvalue="TestNG.LogInWithInvalidUsernameAndValidPassword" />
         <item itemvalue="TestNG.LogInSuccessfullyToTheWebsite" />
         <item itemvalue="Application.LogInTests" />

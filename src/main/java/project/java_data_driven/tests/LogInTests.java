@@ -42,13 +42,12 @@ public class LogInTests {
             new WebDriverWait(driver, timeout).until(ExpectedConditions.presenceOfElementLocated(pageLogin.errorMessage));
             String expectedErrorMessage = driver.findElement(pageLogin.errorMessage).getText();
             Assert.assertEquals(expectedErrorMessage, expectedResult);
+            driver.close();
         }
     }
 
     @AfterTest
-    public void closeBrowser() {
-        driver.quit();
-    }
+    public void closeBrowser() {driver.quit();}
 
     @DataProvider(name = "testData")
     public Object[][] getData(){
